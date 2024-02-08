@@ -15,6 +15,7 @@ Library: C:\Users\nickl\escapeProjectTest\Temp\BurstOutput\tempburstlibs\arm64-v
 --assembly-defines=mscorlib;
 --assembly-defines=Oculus.Interaction;
 --assembly-defines=Oculus.Interaction.OVR;
+--assembly-defines=Oculus.Interaction.OVR.Samples;
 --assembly-defines=Oculus.VR;
 --assembly-defines=System.Configuration;
 --assembly-defines=System.Core;
@@ -54,6 +55,7 @@ Library: C:\Users\nickl\escapeProjectTest\Temp\BurstOutput\tempburstlibs\arm64-v
 --assembly-defines=mscorlib;
 --assembly-defines=Oculus.Interaction;
 --assembly-defines=Oculus.Interaction.OVR;
+--assembly-defines=Oculus.Interaction.OVR.Samples;
 --assembly-defines=Oculus.VR;
 --assembly-defines=System.Configuration;
 --assembly-defines=System.Core;
