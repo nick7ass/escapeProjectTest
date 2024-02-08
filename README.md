@@ -1,0 +1,2 @@
+# escapeProjectTestGit
+ ForIndividualProjectDET
