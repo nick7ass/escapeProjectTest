@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CollisionTag
   - BrickTag
+  - SamplesInfoPanel
+  - GameOverTag
   layers:
   - Default
   - TransparentFX

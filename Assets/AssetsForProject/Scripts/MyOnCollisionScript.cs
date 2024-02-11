@@ -8,7 +8,7 @@ public class MyOnCollisionScript : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
-       if(collision.gameObject.tag == "CollisionTag" || collision.gameObject.tag == "BrickTag")
+       if(collision.gameObject.tag == "CollisionTag") // || collision.gameObject.tag == "BrickTag"
         {
             audioPlayer.Play();
         } 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CrawlerControlScript : MonoBehaviour
+public class CrawlerControlScriptRoomTwo : MonoBehaviour
 {
     //private Animator crawlerAnim;
     private Rigidbody crawlerRig;
@@ -19,6 +19,6 @@ public class CrawlerControlScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        crawlerRig.AddForce(Vector3.forward * crawlerSpeed * Time.deltaTime, ForceMode.Force);
+        crawlerRig.AddForce(Vector3.back * crawlerSpeed * Time.deltaTime, ForceMode.Force);
     }
 }

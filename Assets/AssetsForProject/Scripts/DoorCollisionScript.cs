@@ -6,7 +6,7 @@ public class DoorCollisionScript : MonoBehaviour
 {
     private int doorLife = 5;
     public AudioSource audioSource;
-    //public GameObject lightSource;
+    public GameObject crawlerOne;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -17,8 +17,9 @@ public class DoorCollisionScript : MonoBehaviour
         } else
         {
             audioSource.Play();
+            crawlerOne.SetActive(true);
             gameObject.SetActive(false);
-            //lightSource.SetActive(true);
+            
         }
     }
 }
